@@ -21,7 +21,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/store/order")
 public class OrderController {
-
     private final OrderService orderService;
 
     public OrderController(OrderService orderService) {
